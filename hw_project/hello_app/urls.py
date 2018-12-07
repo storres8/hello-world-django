@@ -1,7 +1,9 @@
-from django.contrib import admin
 from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path('', views.index, name="hello_app_index"),
+    path('common/', include([
+        path('', views.general, name="hello_app_general"),
+        path('<int:id>/', views.detail, name="hello_app_detail"),
+    ]))
 ]
