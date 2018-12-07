@@ -52,6 +52,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+hw_project/hw_project/settings.py
 settings.py
 
 
