@@ -1,0 +1,3 @@
+# SECURITY WARNING: keep the secret key used in production secret!
+# secret key taken from the settings.py in the main project 
+SECRET_KEY = '!9x4hb@b#nyw-hzyii5+7o-4qmt!d130@^^ii1aua$+825l(q-'
