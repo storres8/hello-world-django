@@ -54,6 +54,7 @@ coverage.xml
 *.log
 settings.py
 
+
 # Flask stuff:
 instance/
 .webassets-cache
@@ -89,3 +90,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+
+ignore.py
