@@ -6,3 +6,7 @@ def general(request):
 
 def detail(request, id):
     return HttpResponse(f"<h1>Hello, greeting from planet {id}!</h1>")
+
+def help(request):
+    help_dict= {'help_page': "YOU'VE REACHED THE HELP PAGE!"}
+    return render(request, 'hello_app/index.html', context=help_dict)

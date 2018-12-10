@@ -19,5 +19,5 @@ from hello_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello_app/', include('hello_app.urls'), name="hello_app_index"),
+    path('', include('hello_app.urls'), name="hello_app_index"),
 ]
