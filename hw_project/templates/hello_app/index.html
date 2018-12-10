@@ -1,10 +1,13 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "first_app_css/index.css"%}">
     <title></title>
   </head>
   <body>
-      <h1>{{ help_page }}<h1>
+    <h1>{{home_page}}</h1>
+    <img src="{% static "hello_app_images/logo.jpg" %}" alt="Image not found">
   </body>
 </html>
